@@ -48,6 +48,8 @@ echo "Compiling asset catalog..."
 /Applications/Xcode.app/Contents/Developer/usr/bin/actool "${SOURCE_ROOT}/Sources/${EXECUTABLE_NAME}/Assets.xcassets" \
     --compile "${FINAL_APP_PATH}/Contents/Resources" \
     --platform macosx \
+    --app-icon AppIcon \
+    --output-partial-info-plist "${BUILD_DIR}/partial.plist" \
     --minimum-deployment-target 12.0
 if [ $? -ne 0 ]; then
     echo "Asset catalog compilation failed."

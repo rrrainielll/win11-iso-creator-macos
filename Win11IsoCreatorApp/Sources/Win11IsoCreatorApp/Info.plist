@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.Win11IsoCreatorApp</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
 	<key>CFBundleExecutable</key>
 	<string>Win11IsoCreatorApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
